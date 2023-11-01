@@ -53,14 +53,6 @@ const App: React.FC = () => {
         items={tabItems}
         onChange={console.log}
       />
-      {/* <div className="course-list-content">
-        <Card>
-          <CourseList title="Course Part 1" sessions={sessions1} />
-        </Card>
-        <Card style={{ marginLeft: 12 }}>
-          <CourseList title="Course Part 2" sessions={sessions2} />
-        </Card>
-      </div> */}
     </div>
   );
 };

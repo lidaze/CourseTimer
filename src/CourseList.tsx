@@ -14,7 +14,7 @@ const CourseList: React.FC<Props> = ({ sessions }) => {
       // bordered
       size="small"
       dataSource={sessions}
-      renderItem={(item) => (
+      renderItem={(item, i) => (
         <List.Item
           style={{ backgroundColor: item.color, color: 'white' }}
           actions={[
@@ -23,7 +23,7 @@ const CourseList: React.FC<Props> = ({ sessions }) => {
             </Tag>,
           ]}
         >
-          {item.title}
+          {i + 1}. {item.title}
         </List.Item>
       )}
     />
