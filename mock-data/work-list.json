@@ -1,0 +1,32 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "data": [
+      {
+        "id": 102,
+        "title": "发音功能介绍",
+        "lastEditDate": "2024-04-01",
+        "digitalInfo": {
+          "id": "",
+          "coverUrl": ""
+        },
+        "voiceInfo": {
+          "id": "",
+          "title": ""
+        },
+        "text": "",
+        "exportVideoList": [
+          {
+            "url": "https://video....",
+            "time": "2024-04-01",
+            "resolution": "1080p"
+          }
+        ]
+      }
+    ],
+    "pageNo": 0,
+    "pageSize": 10,
+    "total": 8
+  }
+}
